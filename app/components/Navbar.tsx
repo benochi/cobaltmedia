@@ -1,5 +1,7 @@
 
 import Link from "next/link";
+import ThemeButton from "./ThemeButton";
+
 export default function Navbar(){
 
   return(
@@ -11,6 +13,7 @@ export default function Navbar(){
               Jan <span className="text-teal-500">Blog</span>
             </h1>
           </Link>
+          <ThemeButton />
         </div>
       </div>
     </div>
