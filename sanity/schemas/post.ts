@@ -25,6 +25,16 @@ export default {
       of: [
         {
           type:'block'
+        },
+        {
+          type: 'image',
+          fields: [
+            {
+              type: 'text',
+              name: 'alt',
+              title: 'Alternative Text',
+            }
+          ]
         }
       ]
 
